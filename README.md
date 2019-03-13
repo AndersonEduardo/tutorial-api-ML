@@ -16,6 +16,10 @@ Depois de criar, ative o ambiente virtual criado: `. myenv/bin/activate`
 
 Instale os requerimentos: `pip install -r requirements.txt`
 
+### _Treinando o modelo_
+
+Nos códigos disponibilizados neste repositório são fornecidos arquivos com extensão `.pkl`. Eles são arquivos para o modelo já treinado e salvo no diretório. Entretanto, caso queria rodar o modelo na sua máquina, basta usar: `python model.py`
+
 ### _Subindo para o servidor_
 
 Se tudo correu bem e sem erros, rode o servidor do Flask: `python main.py`
