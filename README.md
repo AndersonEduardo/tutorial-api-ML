@@ -26,11 +26,11 @@ Se tudo correu bem e sem erros, rode o servidor do Flask: `python main.py`
 
 A API deverá estar ativa no endereço: `http://127.0.0.1:12345/predict`
 
-Entretanto, (neste exemplo) precisaremos de um serviço de cliente para utilziar a API.
+Entretanto, (neste exemplo) precisaremos de um serviço de cliente para utilizar a API.
 
 ### _Usando_
 
-Esta API contém um classificador (bem simples) para o clássico problema dos sobreviventes do [naufrágio do Titanic](https://www.kaggle.com/samukaunt/titanic-passo-a-passo-com-8-modelos-ml-pt-br). Por simplicidade, aqui será usado apenas informações referentes à idade (coluna _Age_), sexo (coluna _Sex_), classe (coluna _Embarked_) e a variável resposta (coluna _Survived_, que indica se a pessoa sobreviveu ou não). Como exemplo de uso, será usado o [Postman](https://www.getpostman.com/). Faça dowload e abra o programa. Feito isso, selecione na barra de envio e escreva (ou copie e cole do navegador) o endereço ("endpoint") da API. Abaixo da barra de envio, selecione consecutivamente as opções: (i) Body; (ii) raw; (iii) JSON (application/json). Na caixa de texto, adicione os dados que serão enviados para a API processar. Como exemplo:
+Esta API contém um classificador (bem simples) para o clássico problema dos sobreviventes do [naufrágio do Titanic](https://www.kaggle.com/samukaunt/titanic-passo-a-passo-com-8-modelos-ml-pt-br). Por simplicidade, aqui será usado apenas informações referentes à idade (coluna _Age_), sexo (coluna _Sex_), classe (coluna _Embarked_) e a variável resposta (coluna _Survived_, que indica se a pessoa sobreviveu ou não). Como exemplo de uso, será usado o [Postman](https://www.getpostman.com/). Faça dowload e abra o programa. Feito isso, selecione na barra de envio e escreva (ou copie e cole do navegador) o endereço ("endpoint") da API. Abaixo da barra de envio, selecione consecutivamente as opções: (i) POST; (ii) raw; (iii) JSON (application/json). Na caixa de texto, adicione os dados que serão enviados para a API processar. Como exemplo:
 
 ```
 
