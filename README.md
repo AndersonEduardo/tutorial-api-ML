@@ -38,11 +38,11 @@ Esta API contém um classificador (bem simples) para o clássico problema dos so
 
 ```
 
+Depois, é só clicar no botão azul `Send`. Os dados serão processados pela API e o _output_ retornará na caixa de texto inferior do Postman.
+
 Veja em detalhe:
 
 ![](https://image.ibb.co/eCBKbe/Capture.jpg)
 
-
-Depois, é só clicar no botão azul `Send`. Os dados serão processados pela API e o _output_ retornará na caixa de texto inferior do Postman.
 
 
