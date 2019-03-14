@@ -1,4 +1,4 @@
-# Exemplo de API para ML
+# Tutorial de API para ML
 
 Um exemplo simples de API para um modelo de ML. Abaixo, segue o tutorial para sua implementação na máquina local (usando **_Ubuntu 18.04_**). Para tudo dar certo é necessário ter [Python3](https://www.python.org/) e [venv](https://docs.python.org/3/library/venv.html) instalados na máquina.
 
